@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [gulp-htmllint (v0.0.12)](https://github.com/yvanavermaet/gulp-htmllint)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-htmllint.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-htmllint) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-htmllint.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-htmllint)",
+    "description": "#### basic test coverage for  [gulp-htmllint (v0.0.12)](https://github.com/yvanavermaet/gulp-htmllint)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-htmllint.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-htmllint) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-htmllint.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-htmllint)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "gulp-htmllint": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.25"
 }
